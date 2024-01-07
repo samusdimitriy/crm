@@ -8,6 +8,8 @@ export enum Status {
   Suspended = 'Suspended',
 }
 
+console.log(Status.Active);
+
 export interface StatusLabelProps {
   children: React.ReactNode;
   status: Status;
