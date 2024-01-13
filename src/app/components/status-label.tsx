@@ -19,7 +19,6 @@ export default function StatusLabel({
   status,
   disabled,
 }: StatusLabelProps) {
-  console.log(process.env.SECRET_KEY);
   return (
     <div
       className={clsx(
